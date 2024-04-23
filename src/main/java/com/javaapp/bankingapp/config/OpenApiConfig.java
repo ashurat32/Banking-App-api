@@ -8,6 +8,7 @@ import io.swagger.v3.oas.annotations.info.Info;
 import io.swagger.v3.oas.annotations.info.License;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.security.SecurityScheme;
+import io.swagger.v3.oas.annotations.servers.Server;
 
 @OpenAPIDefinition(
 		info = @Info(
@@ -29,12 +30,12 @@ import io.swagger.v3.oas.annotations.security.SecurityScheme;
 				version = "v1"
 		),
 		externalDocs = @ExternalDocumentation(url = "https://github.com/ASHISH3214/Banking-App-api"),
-//		servers = {
-//				@Server(
-//						description = "Dev",
-//						url = "https://banking-app-api-production.up.railway.app/"
-//				)
-//		},
+		servers = {
+				@Server(
+						description = "Dev",
+						url = "https://banking-app-api-production-f737.up.railway.app/"
+				)
+		},
 		security = @SecurityRequirement(
 				name = "Bearer Authentication")  //enable all controllers authorization
 )		
