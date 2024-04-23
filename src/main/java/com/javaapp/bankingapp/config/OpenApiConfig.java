@@ -15,7 +15,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
 				title = "Banking-App APIs",
 				description = "## Banking-App Apis curd operations and security implimentation \n"
 						+ "### Login credentials - \n"
-						+ "### username - ashish@gmail.com \n"
+						+ "### username - user@gmail.com \n"
 						+ "### password - 1234 \n"
 						+ "#### Go to user-controller and authenticate user \n",
 				summary = "This is Test project for learning purpose.",
